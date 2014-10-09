@@ -42,4 +42,3 @@ function Book(title, q) {
 	};
 	q.books.push(title);
 }
-.
