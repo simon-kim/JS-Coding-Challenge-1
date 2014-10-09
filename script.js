@@ -33,7 +33,7 @@ function Book(title, q) {
 		w.numBooks++;
 		w.booksOnShelf.push(this.name);
 	};
-		//Unshelf method
+	//Unshelf method
 	this.unshelf = function(w) {
 		var shelf = w.name;
 		var location = w.booksOnShelf.indexOf(this.name);
