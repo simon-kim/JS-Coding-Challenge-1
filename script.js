@@ -2,7 +2,7 @@
 function Library(name) {
   this.name = name;
 	this.numShelves = 0;
-	this.books = new Array();
+	this.books = [];
 	//Aware of a number of shelves
 	this.numShelves = function() {
 		console.log(this.numShelves);
@@ -11,7 +11,7 @@ function Library(name) {
 	this.allBooks = function() {
 		for(var i = 0; i < this.books.length; i++) {
 			console.log(this.books[i]);
-		};
+		}
 	};
 }
 
@@ -20,7 +20,7 @@ function Shelf(genre, q) {
 	this.genre = genre;
 	this.numBooks = 0;
 		//Know what books it contains
-	this.booksOnShelf = new Array();
+	this.booksOnShelf = [];
 	q.numShelves++;
 }
 
