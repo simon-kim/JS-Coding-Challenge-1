@@ -19,7 +19,7 @@ function Library(name) {
 function Shelf(genre, q) {
 	this.genre = genre;
 	this.numBooks = 0;
-		//Know what books it contains
+	//Know what books it contains
 	this.booksOnShelf = [];
 	q.numShelves++;
 }
